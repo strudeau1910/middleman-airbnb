@@ -1,0 +1,19 @@
+---
+title: Le Wagon - Middleman - team
+---
+
+<div id="team">
+  <div class="team-content">
+
+    <h1>This template was built with lots of <i class="fa fa-heart"></i> by</h1>
+    <ul class="list-inline">
+      <% %w(Caro Steph).each do |user| %>
+        <li>
+          <%= image_tag "#{user}.jpeg", class: "img-circle" %>
+          <h2><%= user %></h2>
+        </li>
+      <% end %>
+    </ul>
+
+  </div>
+</div>
